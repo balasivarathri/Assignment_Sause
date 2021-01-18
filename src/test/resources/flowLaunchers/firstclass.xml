@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="CompleteSuite">
+    <test name="LoginFlow" >
+        <classes>
+            <class name="com.sauce.demo.flows.LoginPageFlow"/>
+        </classes>
+    </test>
+        <test name="inventory" >
+        <classes>
+            <class name="com.sauce.demo.flows.InventoryPageFlow"/>
+        </classes>
+    </test>
+        
+</suite>

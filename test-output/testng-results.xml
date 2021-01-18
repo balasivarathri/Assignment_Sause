@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-01-18T15:43:47Z" name="CompleteSuite" finished-at="2021-01-18T15:45:55Z" duration-ms="128513">
+    <groups>
+    </groups>
+    <test started-at="2021-01-18T15:43:47Z" name="LoginFlow" finished-at="2021-01-18T15:44:02Z" duration-ms="15238">
+      <class name="com.sauce.demo.flows.LoginPageFlow">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sauce.demo.flows.LoginPageFlow@1f59a598]" started-at="2021-01-18T17:43:47Z" name="setUp" finished-at="2021-01-18T17:43:53Z" duration-ms="6829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="userLogin()[pri:1, instance:com.sauce.demo.flows.LoginPageFlow@1f59a598]" started-at="2021-01-18T17:43:53Z" name="userLogin" finished-at="2021-01-18T17:44:02Z" duration-ms="8399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogin -->
+      </class> <!-- com.sauce.demo.flows.LoginPageFlow -->
+    </test> <!-- LoginFlow -->
+    <test started-at="2021-01-18T15:44:02Z" name="inventory" finished-at="2021-01-18T15:45:55Z" duration-ms="113232">
+      <class name="com.sauce.demo.flows.InventoryPageFlow">
+        <test-method signature="verifySauceLabsBackpack()[pri:1, instance:com.sauce.demo.flows.InventoryPageFlow@6a2b953e]" started-at="2021-01-18T17:44:02Z" name="verifySauceLabsBackpack" finished-at="2021-01-18T17:44:14Z" duration-ms="12593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySauceLabsBackpack -->
+        <test-method signature="verifySauceLabsBoltTShirt()[pri:2, instance:com.sauce.demo.flows.InventoryPageFlow@6a2b953e]" started-at="2021-01-18T17:44:14Z" name="verifySauceLabsBoltTShirt" finished-at="2021-01-18T17:44:32Z" duration-ms="17658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySauceLabsBoltTShirt -->
+        <test-method signature="verifySauceLabsOnesie()[pri:3, instance:com.sauce.demo.flows.InventoryPageFlow@6a2b953e]" started-at="2021-01-18T17:44:32Z" name="verifySauceLabsOnesie" finished-at="2021-01-18T17:44:45Z" duration-ms="12667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySauceLabsOnesie -->
+        <test-method signature="verifySauceLabsBikeLight()[pri:4, instance:com.sauce.demo.flows.InventoryPageFlow@6a2b953e]" started-at="2021-01-18T17:44:45Z" name="verifySauceLabsBikeLight" finished-at="2021-01-18T17:44:58Z" duration-ms="13176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySauceLabsBikeLight -->
+        <test-method signature="verifySauceLabsFleeceJacket()[pri:5, instance:com.sauce.demo.flows.InventoryPageFlow@6a2b953e]" started-at="2021-01-18T17:44:58Z" name="verifySauceLabsFleeceJacket" finished-at="2021-01-18T17:45:11Z" duration-ms="12631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySauceLabsFleeceJacket -->
+        <test-method signature="verifyTestallTheThingsTShirtRed()[pri:7, instance:com.sauce.demo.flows.InventoryPageFlow@6a2b953e]" started-at="2021-01-18T17:45:11Z" name="verifyTestallTheThingsTShirtRed" finished-at="2021-01-18T17:45:23Z" duration-ms="12613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTestallTheThingsTShirtRed -->
+        <test-method signature="ValidateRedTShit()[pri:8, instance:com.sauce.demo.flows.InventoryPageFlow@6a2b953e]" started-at="2021-01-18T17:45:23Z" name="ValidateRedTShit" finished-at="2021-01-18T17:45:55Z" duration-ms="31888" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateRedTShit -->
+      </class> <!-- com.sauce.demo.flows.InventoryPageFlow -->
+    </test> <!-- inventory -->
+  </suite> <!-- CompleteSuite -->
+</testng-results>

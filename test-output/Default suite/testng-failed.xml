@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test" verbose="2">
+    <classes>
+      <class name="com.sauce.demo.actions.CommonActions"/>
+      <class name="com.sauce.demoscipts.IInventoryPageScripts"/>
+      <class name="com.sauce.demo.flows.InventoryPageFlow"/>
+      <class name="com.sauce.demoscripts.impl.InventoriesPageImpl"/>
+      <class name="com.sauce.demoscipts.ICommonActions"/>
+      <class name="com.sauce.demoscipts.ILoginPageScripts"/>
+      <class name="com.sauce.demo.flows.LoginPageFlow"/>
+      <class name="com.sauce.demo.locators.InventoryPageLoc"/>
+      <class name="com.sauce.demo.locators.LoginPageLoc"/>
+      <class name="com.sauce.demoscripts.impl.LoginPageImpl"/>
+      <class name="com.sauce.demo.actions.Sleeper"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test parallel="none" name="Default test(failed)">
+    <classes>
+      <class name="com.sauce.demo.flows.LoginPageFlow">
+        <methods>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.sauce.demo.flows.LoginPageFlow -->
+      <class name="com.sauce.demo.flows.InventoryPageFlow">
+        <methods>
+          <include name="verifySauceLabsBikeLight"/>
+          <include name="verifySauceLabsBackpack"/>
+          <include name="verifySauceLabsFleeceJacket"/>
+          <include name="verifyTestallTheThingsTShirtRed"/>
+          <include name="verifySauceLabsOnesie"/>
+          <include name="ValidateRedTShit"/>
+          <include name="verifySauceLabsBoltTShirt"/>
+        </methods>
+      </class> <!-- com.sauce.demo.flows.InventoryPageFlow -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
